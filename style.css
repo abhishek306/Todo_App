@@ -1,0 +1,31 @@
+div.todoStatusACTIVE {
+    color : blue;
+}
+
+div.todoStatusCOMPLETE{
+    color: green;
+}
+div.todoStatusDELETED{
+    color: red;
+    text-decoration-line: line-through;
+}
+
+.breathVertical{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.breathHorizontal{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.button {
+    background-color: #fff;
+    border: none;
+    color: red;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body style="background-color: black">
+
+<div style="position: absolute; left: 370px ;width:500px; background-color: cornsilk; height: auto; border: solid; border-color: darkmagenta; margin-top: auto">
+<div style="height: 80px; background-color: bisque; margin-top: 5px">
+<h2 style="text-align: center; color: darkblue"><br>My TODO's </h2>
+</div>
+    <label><b>Active Todos</b></label>
+<div id="active_todos_list_div" style="height: auto">
+
+    <button value="Get Todos" onclick="getTodosAJAX()" class="breathVertical">Refresh todos</button>
+</div>
+<br>
+    <div style="height:1px; background-color: black;"></div>
+    <div style="height: 40px">
+<h3 style="color: darkcyan">Add Todo</h3>
+<input type="text" id="new_todo_input" placeholder="enter todo task" width="250" style="margin-left: 15px;"/>
+<input type="button" value="Add todo" onclick="addTodoAJAX()" style="background-color: aqua; float: right; margin-right: 200px"/>
+    </div>
+        <br><br>
+<div style="height:1px; background-color: black;"></div>
+<br>
+    <label><b>Completed Todos</b></label>
+    <label id = 'hide_complete' onclick="changeVisibility(this.id)" class="hidden_label" style="float: right; margin-right: 10px">Hide Todos</label>
+<div id="completed_todos_list" style="height: auto"></div>
+<br>
+<div style="height:1px; background-color: black;"></div>
+<br>
+    <label><b>Deleted Todos</b></label>
+    <label id = 'hide_delete' onclick="changeVisibility(this.id)" class="hidden_label" style="float: right; margin-right: 10px">Hide Todos</label>
+<div id="deleted_todos_list" style="height: auto"></div>
+
+</div>
+<br>
+
+</body>
+<script src="/script.js" type="text/javascript"></script>
+</html>
