@@ -1,0 +1,16 @@
+{
+  "name": "assignment2_todo_app",
+  "version": "1.0.0",
+  "description": "2nd assignment, starts on 31-08-2017",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek aggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
